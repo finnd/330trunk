@@ -1,8 +1,33 @@
+body {background-color: CornflowerBlue;
+     }
+
 h1 {color: blue;
    }
 
-h1.name {color: green;
+h1.name {color: purple;
+	}
+p.card {color: purple;
+	margin: 30px;
+	font-size: 18px;
+       }
+
+ol.card {
+         color: purple;
+	 left-margin: 450px;
+	 font-size: 18px;
 	}
 
+p.card#shadow {color: purple;
+	       margin: 30px;
+	       font-size: 18px;
+	       text-shadow: 2px 2px #ff0000;
+	      }
 
-		 
+div.activityList { position: absolute;
+		   top: 220px;
+		   left: 70px;
+		 }
+
+div.heartImage { position: absolute;
+		 top: 300px;
+	       }
